@@ -1,0 +1,367 @@
+nav{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 70px;
+	background-color: #03002b;
+	border-bottom: 5px solid #091954;
+}
+.menu{
+	position: relative;
+	float: left;
+	width: 1003px;
+	height: 60px;
+}
+.submenu{
+	width: 150px;
+	height: 60px;
+	position: relative;
+	float: left;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	color: lightblue;
+}
+.submenu:hover{
+	font-size: 25px;
+	border-bottom: 3px solid #091954;
+}
+.slider{
+	position: relative;
+	float: left;
+	height: auto;
+	width: 150px;
+	z-index: 10;
+}
+.slider_submenu{
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	color: lightblue;
+	background-color: #03002b;
+	width: 150px;
+	height: 60px;
+	cursor: pointer;
+	display: none;
+}
+.slider_submenu:hover{
+	font-size: 13px;
+	border-bottom: 3px solid #091954;
+}
+.wrapper{
+	width: 100%;
+	height: 2000px;
+	background-color: #350c0c;
+}	
+.toTop{
+	position: fixed;
+	width: auto;
+	height: auto;
+	font-size: 50px;
+	right: 60px;
+	bottom: 30px;
+	opacity: 0.7;
+	margin: auto;
+	color: white;
+	border-radius: 360px;
+	display: none;
+}
+.toTop:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.search_desk{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	background-color: #091954;
+	color: lightblue;
+	display: none;
+}
+.search_icon{
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #091954;
+	border-left: 2px solid #03002b;
+	color: lightblue;
+}
+.search_icon:hover{
+	font-size: 23px;
+}
+.login_icon{
+	position: relative;
+	float: right;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #091954;
+	color: lightblue;
+	margin: 10px;
+	cursor: pointer;
+}
+.login_icon:hover{
+	font-size: 23px;
+}
+.profile{
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	width: auto;
+	height: 40px;
+	font-size: 20px;
+	color: lightblue;
+	line-height: 40px;
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+.login_content{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	background-color: #091914;
+	z-index: 10;
+	display: none;
+}
+.login_content input{
+	position: relative;
+	width: 300px;
+	height: 40px;
+	float: left;
+	outline: 1px solid orange;
+
+	margin-left: 100px;
+	margin-top: 25px;
+}
+.login_content button{
+	position: relative;
+	float: left;
+	margin-left: 150px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #03002b;
+	outline: none;
+	border: none;
+	color: lightblue; 
+	width: 200px;
+	height: 40px;
+	cursor: pointer;
+}
+.login_content button:hover{
+	font-size: 25px; 	
+}
+.login_cancel{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.login_cancel img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 0 auto;
+}
+.login_exit_quest{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	color: lightblue;
+	background-color: #03002b;
+	z-index: 10;
+	display: none;
+}
+.login_exit_quest div{
+	position: relative;
+	float: left;
+	width: 170px;
+	height: 50px;
+	background-color: #091954;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: lightblue;
+	margin: 15px;
+	margin-top: 50px;
+	cursor: pointer;
+	box-shadow: 0 0 10px hsla(2, 2%, 2%, 0.2);
+	box-shadow: 0 0 1px rgba(1, 1, 1, 1.4), 0 2px 8px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 2px hsla(0, 0%, 0%, 0.21),
+              inset 0 5px 2px hsla(0, 0%, 0%, 0.19),
+              inset 0 0 0 2px hsla(0, 0%, 0%, 0.18);
+}
+.login_exit_quest div:hover{
+	font-size: 27px;
+}
+
+.slide_place{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+.slide_place img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.videos{
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	display: block;
+}
+.videos video{
+	position: relative;
+	float: left; 
+	height: 120px;
+}
+.videos h3{
+	color: white;
+}
+.videos ol{
+	position: relative;
+	float: left;
+	width: 230px;
+	color: white;
+	font-size: auto;
+	height: auto;
+	margin: 20px; 
+	cursor: pointer;
+}
+
+
+.fut-man_video{
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	display: none;
+}
+.fut-man_video video{
+	position: relative;
+	float: left; 
+	height: 120px;
+}
+.fut-man_video h3{
+	color: white;
+}
+.fut-man_video ol{
+	position: relative;
+	float: left;
+	width: 230px;
+	color: white;
+	font-size: auto;
+	height: auto;
+	margin: 20px; 
+	cursor: pointer;
+}
+
+.univer_video{
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	display: none;
+}
+.univer_video video{
+	position: relative;
+	float: left; 
+	height: 120px;
+}
+.univer_video h3{
+	color: white;
+}
+.univer_video ol{
+	position: relative;
+	float: left;
+	width: 230px;
+	color: white;
+	font-size: auto;
+	height: auto;
+	margin: 20px; 
+	cursor: pointer;
+}
+
+.films{
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	display: none;
+}
+.films video{
+	position: relative;
+	float: left; 
+	height: 120px;
+}
+.films h3{
+	color: white;
+}
+.films ol{
+	position: relative;
+	float: left;
+	width: 230px;
+	color: white;
+	font-size: auto;
+	height: auto;
+	margin: 20px; 
+	cursor: pointer;
+}
+
+
+.clips{
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	display: none;
+}
+.clips video{
+	position: relative;
+	float: left; 
+	height: 120px;
+}
+.clips h3{
+	color: white;
+}
+.clips ol{
+	position: relative;
+	float: left;
+	width: 230px;
+	color: white;
+	font-size: auto;
+	height: auto;
+	margin: 20px; 
+	cursor: pointer;
+}
