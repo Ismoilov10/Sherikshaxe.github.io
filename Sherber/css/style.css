@@ -1,0 +1,117 @@
+.profile_name{
+	color: white;
+	font-size: 50px;
+}
+.wrapper{
+	width: 1003px;
+	height: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background-color: #0c0546;
+	box-shadow: 0 0 20px hsla(0, 0%, 0%, 1);
+}
+.toTop{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: darkgray;
+    display: none;
+}
+.textarea{
+	width: 350px;
+	height: 200px;
+	position: relative;
+	float: left; 
+	margin-left: 10px;
+}
+.sendmes{
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #e80b0b;
+	cursor: pointer;
+	color: #0c0546;
+}
+
+.register{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 10;
+	background-color: #020221;
+	width: 700px;
+	height: 300px;
+	box-shadow: 0 0 50px hsla(0, 0%, 0%, 0.7);
+	display: none;
+}
+.register h4{
+	position: absolute;
+	left: 150px;
+	top: 50px;
+	margin: auto;
+	width: 350px;
+	height: auto;
+	font-size: 50px;
+	color: #e80b0b;
+}
+.register input{
+	position: absolute;
+	margin: auto;
+	top:  125px;
+	left: 190px;
+	width: 350px;
+	height: 60px;
+	font-size: 30px;
+}
+.register_btn{
+	position: absolute;
+	margin: auto;
+	top:  195px;
+	left: 190px;
+	width: 350px;
+	height: 60px;
+	background-color:#e80b0b;
+	text-align: center;
+	line-height: 60px; 
+	font-size: 30px;
+	cursor: pointer;
+	color: #0c0546;
+}
+
+.overlay{
+	width: 1349px;
+	height: 1200px;
+	background-color: darkorange;
+	z-index: 9;
+}
+
+li{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	font-size: 19px;
+	border-bottom: 3px solid darkorange;
+	color: darkorange;
+}
+h5{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	font-size: 25px;
+	color: darkorange;
+}
