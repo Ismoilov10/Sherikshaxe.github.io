@@ -109,6 +109,15 @@ $("body").on("click",".btn",function(){
             }
 
 
+          $("body").on("click",".btn-danger",function(){    
+              var input = $(".inputar").val();
+              if(input=="224455"){
+                $(".overlay").css("display","none")
+              }else{
+                $(".overlay").css("border","4px solid darkred")
+              }
+          })
+
 
 });
 
