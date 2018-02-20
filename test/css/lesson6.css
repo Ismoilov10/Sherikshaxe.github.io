@@ -1,3 +1,91 @@
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: black;
+	z-index: 100;
+}
+.overlay input{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 300px;
+	height: 50px;
+	font-size: 40px;
+	text-align: left;
+	line-height: 50px;
+}
+.overlay button{
+	position: relative;
+	float: left;
+	margin-top: 350px;
+	margin-left: 39%;
+	width: 300px;
+	height: 50px;
+	font-size: 35px;
+	line-height: 30px;
+	outline: none;
+	border: 3px solid darkred;
+	background-color: darkred;
+}
+.overlay button:hover{
+	border: 3px solid darkred;
+	background-color: darkred;
+}
+.btn{
+	width: 100%;
+	height: 30%;
+	background-color: lightgray;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	font-size: 100px;
+	text-align: center;
+	line-height: 170px;
+	color: #483c65;
+	border: 1px solid darkgray;
+	box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.5);
+	cursor: pointer;
+	z-index: 10;
+}
+.btn:hover{
+	color: #483c99;
+}
+.word{
+	box-shadow: 0 0 20px hsla(1, 1%, 1%, 0.9);
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 65px;
+	text-align: center;
+	width: auto;
+	color: #483c99;
+	height: 100px;
+	text-shadow: 3px 1px 5px #483c65;
+	z-index: 10;
+}
+.lightbox{
+	position: relative;
+	float: left;
+	border-radius: 360px;
+	width: 2%;
+	height: 20px;
+	background-color: red;
+}
+
 body{
 	background-color: gray; 
 }
