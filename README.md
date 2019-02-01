@@ -1,2 +1,2 @@
 # Sherikshaxe.github.io
-#Welcome [Ali](https://sherikshaxe.github.io/ali/index.html)
+#Welcome [Ali](https://sherikshaxe.github.io/ali/)
